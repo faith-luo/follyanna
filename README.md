@@ -1,6 +1,12 @@
 # follyanna
 automatic pinyin and furigana ruby tags in js
 
+## Overview
+`follyanna` uses intelligent furigana placement to strip redundant kana from furigana readings.
+
+For instance: 頑張る[がんばる] -> <ruby>頑張<rt>がんば</rt>る</ruby>
+
+
 ## Usage
 * Include `furigana.bundle.js` into your webpage.
 ```
